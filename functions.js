@@ -93,25 +93,27 @@
 // ACTIVITY 3
 
 
-// let accountBalance = 500; 
-// const correctPin = 1234; 
+let accountBalance = 300; 
+const correctPin = 1987; 
 
-// const cashMachine = (enteredPin, requestedAmount) => {
-//   console.log("Welcome to Mo's Money!");
+const cashMachine = (enteredPin, requestedAmount) => {
+  console.log("Hello and welcome to your bank");
 
-//   if (enteredPin === correctPin) {
-//     console.log("PIN is correct. Authenticating...");
+  if (enteredPin === correctPin) {
+    console.log("PIN is OK, getting you're account");
 
-//     if (requestedAmount > 0 && requestedAmount <= accountBalance) {
-//       console.log(`Authentication successful. Dispensing $${requestedAmount}.`);
-//       accountBalance -= requestedAmount;
-//       console.log(`Remaining balance: $${accountBalance}`);
-//       console.log("Thank you for using Mo's Money!");
-//     } else {
-//       console.log("Invalid amount or insufficient funds.");
-//       console.log("Transaction canceled. Please try again.");
-//     }
-//   } else {
-//     console.log("Incorrect PIN. Access denied.");
-//   }
-// };
+    if (requestedAmount > 0 && requestedAmount <= accountBalance) {
+      console.log(`Successful. Dispensing $${requestedAmount}.`);
+      accountBalance -= requestedAmount;
+      console.log(`balance: $${accountBalance}`);
+      console.log("thanks for using the bank");
+    } else {
+      console.log("Not Enough funds.");
+      console.log("Transaction failed. Please try again.");
+    }
+  } else {
+    console.log("Incorrect PIN. Access denied.");
+  }
+};
+
+cashMachine(1987, 200);

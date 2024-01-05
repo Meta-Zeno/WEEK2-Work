@@ -160,36 +160,42 @@
 // const coffeeShop = {
 //     branch: "Wigan",
 //     drinks: {
-//         americano: 2.90,
-//         latte: 3.70,
-//         tea: 2.00,
-//         coffee: 1.50, 
+//         "americano": 2.90,
+//         "latte": 3.70,
+//         "tea": 2.00,
+//         "coffee": 1.50, 
 //     },
     
-//     food: {
-//         pizza: 7.00,
-//         chips: 3.20,
-//         fish: 4.90,
-//         hotdog: 2.50,
-//     },
+//     // food: {
+//     //     pizza: 7.00,
+//     //     chips: 3.20,
+//     //     fish: 4.90,
+//     //     hotdog: 2.50,
+//     // },
 
-//     drinkOrder:(){
-
-//         if(drinks[2]){
-//             console.log(`You have ordered a $[drinks2]`)
+//     drinksOrdered(drink){
+//         if (this.drinks[drink]){
+//           console.log(`${this.drinks[drink]} ${drinks} ordered`);
+//         //   return this.drinks[drink] * amount;
+//         } else {
+//             console.log(`${drink} is out of stock`);
+//             // return 0;
 //         };
-//     }
+//     },
+     
+// coffeeShop.drinksOrdered()
 
-//     }
+// }
+
+// // console.log(coffeeShop.drinksOrdered())
+
+// #######################################################################################
 
 
 
-
-
-
-
-
-
+const coffeeShop = {
+    
+}
 
 
 
