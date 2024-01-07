@@ -5,6 +5,7 @@
 // ];
         // console.log(coffeeOrder);
 //      console.log(coffeeOrder[2]);  -  [2] -  using this inside an array allows us to target an index position remebering javascript runs 0 as item 1 so this will be charlie known as "zero index"
+      
         // coffeeOrder[1] = "Ann - Vanilla latte";    
         // this allows to overwrite the poistion of ben for a new entry
        
@@ -52,7 +53,7 @@
         //     }
 
         //     console.log(persons)
-//map allows you to create a function for a list and pull 2 var and make them into 1 var eg first name and last name, grabs bot h and displays botrh as one instance. but its not just 
+//map allows you to create a function for a list and pull 2 var and make them into 1 var eg first name and last name, grabs both and displays both as one instance. but its not just 
 //limited to strings it can be used for int and multiplied final outputs etc.
 
 
