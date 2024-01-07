@@ -188,13 +188,13 @@
 
 
 
-// name age color then update t hem
+// name age color then update them
 
-// eat breakfast  dfinner lunch program that caluclates the number fo days to my birthday   javascripte date on mdn
+// eat breakfast  dinner lunch program that caluclates the number fo days to my birthday   javascripte date on mdn
 
 
 // ########################################ACTIVITY1######################################
-// let myName = "Mike;"
+// let myName = "Mike";
 // let myAge = 36
 // let myFavColor = "Blue"
 

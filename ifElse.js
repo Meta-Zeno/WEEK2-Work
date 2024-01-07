@@ -29,9 +29,9 @@
 
 
 // == equal check if same 
-// ===strict equal if ddata type are same
+// === strict equal if data type are same
 // != not equal 
-// !==strict not equal
+// !== strict not equal
 
 //MODULO
 // if(10%2 === 0){
@@ -42,8 +42,8 @@
 // }
 
 
-//  (expressiontobeevaluation    
-//   logical operatio &&, !!
+//  (expression to be valuation    
+//   logical operation &&, ||
 //   expression to be met)
 //)
 //  && both conditions to be met in order  to run code

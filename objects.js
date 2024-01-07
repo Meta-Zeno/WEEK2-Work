@@ -17,14 +17,14 @@
 //     lunchOffer: "Free drink with suprisingly priced sandwich",
 //     noOffer: "Sorry no offer",
 
-    // openCafe:() => {
-    //     return "come on in";
-    // },
-    // closeCafe:() => {
-    //     return "we are closed, come back tomorrow!"
-    // }
+//     openCafe:() => {
+//         return "come on in";
+//     },
+//     closeCafe:() => {
+//         return "we are closed, come back tomorrow!"
+//     }
 
-// ############### These two are the sam  but as of ES6 their is no need to use => and the :  on cafe
+// // ############### These two are the sam  but as of ES6 their is no need to use => and the :  on cafe
 //     openCafe(){
 //         return "come on in";
 //     },
@@ -96,63 +96,58 @@
 
 // ##############   ACTIVITY  ######################
 
-// let day = "Sunday";
-// let message = "";
+let day = "Sunday";
+let message = "";
 
-// let alarm = {
-//     weekendAlarm: "No alarm needed",
-//     weekdayAlarm: "Get up at 7am"
-// };
+let alarm = {
+    weekendAlarm: "No alarm needed",
+    weekdayAlarm: "Get up at 7am"
+};
 
-// if (day === "Saturday" || day === "Sunday"){
-//     message = alarm.weekendAlarm;
-// } else {
-//     message = alarm.weekdayAlarm;
-// };
+if (day === "Saturday" || day === "Sunday"){
+    message = alarm.weekendAlarm;
+} else {
+    message = alarm.weekdayAlarm;
+};
 
-// console.log(message);
-
-
-
-
-
+console.log(message);
 // ################################# ACTIVITY 1 ##############################
 
-//     const person = {
-//         myName: "Mike",
-//         age: 36, 
-//         favSongs: [
-//             "song1",
-//             "song2",
-//             "song3",
-//             "song4",
-//             "song5"
-//            ],
+    const person = {
+        myName: "Mike",
+        age: 36, 
+        favSongs: [
+            "song1",
+            "song2",
+            "song3",
+            "song4",
+            "song5"
+           ],
 
-//         sayHI(){
-//             console.log(`hello my name is ${this.myName}, and my favorite song is ${this.favSongs[2]}`)
-//         }
-// };
+        sayHI(){
+            console.log(`hello my name is ${this.myName}, and my favorite song is ${this.favSongs[2]}`)
+        }
+};
 
-// person.sayHI()
+person.sayHI()
 // ################################# ACTIVITY 2 ##############################
 
-// const pet = {
-//     name: "rex",
-//     typeOfPet: "german shep",
-//     age: 2,
-//     colour: "suntan",
-//     eat() {
-//         console.log(`my pet ${this.name}, is eating and it is ${this.colour}`);
-//     },
+const pet = {
+    name: "rex",
+    typeOfPet: "german shep",
+    age: 2,
+    colour: "suntan",
+    eat() {
+        console.log(`my pet ${this.name}, is eating and it is ${this.colour}`);
+    },
 
-//     drink() {
-//          console.log(`my pet ${this.name}, is drinking`);
-//     }
+    drink() {
+         console.log(`my pet ${this.name}, is drinking`);
+    }
 
-// };
+};
 
-// pet.eat()
+pet.eat()
 
 
 // ################################# ACTIVITY 3 ##############################
